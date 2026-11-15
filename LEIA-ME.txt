@@ -1,0 +1,25 @@
+PRISMA STUDIO — VERSÃO 2.1
+
+COMO ABRIR
+1. Extraia todo o ZIP.
+2. Abra o arquivo index.html com Chrome ou Edge.
+3. Entre no Eliminador de Semitransparência.
+4. Abra uma imagem PNG ou use o arquivo EXEMPLO-png-300dpi.png.
+5. Escolha o estilo de correção e clique em Aplicar Correção.
+6. Confira os detalhes da arte e baixe o PNG corrigido.
+
+NOVIDADES DA VERSÃO 2.1
+- Reparar alfa: mantém 6 controles (opaco a partir de 235, furos 30px, pontinhos 0px, limite 128, suavização Média, halo 100%).
+- Contorno Limpo, Contorno Direto e Corte fixo em 50%: exibem apenas os 3 controles Limite de opacidade, Suavizar contorno e Limpeza de halo de cor.
+- Os valores iniciais dos três modos simplificados são 128, Média e 100%.
+- No Corte fixo em 50%, o limite permanece travado em 128, enquanto suavização e halo podem ser ajustados.
+- Ajustes independentes são preservados ao alternar os estilos.
+- Modos simplificados não executam os ajustes ocultos de fechamento de furos e remoção de pontinhos.
+
+NOTAS IMPORTANTES
+- Ferramenta experimental, com algoritmos próprios e não equivalentes aos da PrintFlix.
+- Imagens são processadas localmente no navegador, sem necessidade de uma API paga.
+- A saída tem canal alfa binário 0/255 e mantém largura e altura em pixels.
+- O DPI do arquivo original é preservado quando é informado no PNG; caso contrário, é necessário confirmar o DPI desejado na interface.
+- Verifique em 100% de zoom e no software RIP antes de usar na produção DTF.
+- Limite de segurança deste protótipo: 35 megapixels.
